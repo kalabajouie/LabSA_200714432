@@ -3,4 +3,4 @@ Repositorio para laboratorio de Software Avanzado 2do semestre 2020
 
 Titulo
 =========================
-*Este es el texto
+* Este es el texto
