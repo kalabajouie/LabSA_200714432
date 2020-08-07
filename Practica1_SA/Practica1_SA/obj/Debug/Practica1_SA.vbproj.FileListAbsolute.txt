@@ -1,0 +1,8 @@
+D:\PROYECTOS\Practica1_SA\Practica1_SA\bin\Practica1_SA.dll
+D:\PROYECTOS\Practica1_SA\Practica1_SA\bin\Practica1_SA.pdb
+D:\PROYECTOS\Practica1_SA\Practica1_SA\bin\Practica1_SA.xml
+D:\PROYECTOS\Practica1_SA\Practica1_SA\obj\Debug\Practica1_SA.Resources.resources
+D:\PROYECTOS\Practica1_SA\Practica1_SA\obj\Debug\Practica1_SA.vbproj.GenerateResource.Cache
+D:\PROYECTOS\Practica1_SA\Practica1_SA\obj\Debug\Practica1_SA.dll
+D:\PROYECTOS\Practica1_SA\Practica1_SA\obj\Debug\Practica1_SA.xml
+D:\PROYECTOS\Practica1_SA\Practica1_SA\obj\Debug\Practica1_SA.pdb

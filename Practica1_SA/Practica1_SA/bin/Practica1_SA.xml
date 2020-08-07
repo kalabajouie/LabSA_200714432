@@ -1,0 +1,164 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Practica1_SA
+</name>
+</assembly>
+<members>
+<member name="F:Practica1_SA.Principal.form1">
+	<summary>
+Control form1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="F:Practica1_SA.Principal.GridView1">
+	<summary>
+Control GridView1.
+</summary>
+	<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member><member name="P:Practica1_SA.My.MyWebExtension.Application">
+	<summary>
+ Devuelve información sobre la aplicación actual.
+ </summary>
+</member><member name="P:Practica1_SA.My.MyWebExtension.Computer">
+	<summary>
+ Devuelve información sobre el equipo host.
+ </summary>
+</member><member name="P:Practica1_SA.My.MyWebExtension.User">
+	<summary>
+ Devuelve información del usuario web actual.
+ </summary>
+</member><member name="P:Practica1_SA.My.MyWebExtension.Request">
+	<summary>
+ Devuelve un objeto Request.
+ </summary>
+</member><member name="P:Practica1_SA.My.MyWebExtension.Response">
+	<summary>
+ Devuelve un objeto Response.
+ </summary>
+</member><member name="P:Practica1_SA.My.MyWebExtension.Log">
+	<summary>
+ Devuelve el objeto de registro Asp.
+ </summary>
+</member><member name="P:Practica1_SA.My.MyWebExtension.WebServices">
+	<summary>
+ Proporciona acceso a los servicios Web agregados a este proyecto.
+ </summary>
+</member><member name="T:Practica1_SA.My.MyWebExtension">
+	<summary>
+ Módulo usado para definir las propiedades que están disponibles en el espacio de nombres My para proyectos web.
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readList_filters.published">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readList_filters.publishedSpecified">
+	<remarks/>
+</member><member name="T:Practica1_SA.api_sa_admin_contactos.readList_filters">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.id">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.name">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.alias">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.con_position">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.address">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.suburb">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.state">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.country">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.postcode">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.telephone">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.fax">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.misc">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.image">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.email_to">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.default_con">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.published">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.checked_out">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.checked_out_time">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.ordering">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.params">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.user_id">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.catid">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.access">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.mobile">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.webpage">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.sortname1">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.sortname2">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.sortname3">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.language">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.created">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.created_by">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.modified">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.modified_by">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.metakey">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.metadesc">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.metadata">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.featured">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.publish_up">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.publish_down">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.version">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readItemResponse_item.hits">
+	<remarks/>
+</member><member name="T:Practica1_SA.api_sa_admin_contactos.readItemResponse_item">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readListResponse_list_item.id">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readListResponse_list_item.access">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readListResponse_list_item.featured">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readListResponse_list_item.language">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readListResponse_list_item.name">
+	<remarks/>
+</member><member name="P:Practica1_SA.api_sa_admin_contactos.readListResponse_list_item.ordering">
+	<remarks/>
+</member><member name="T:Practica1_SA.api_sa_admin_contactos.readListResponse_list_item">
+	<remarks/>
+</member>
+</members>
+</doc>
