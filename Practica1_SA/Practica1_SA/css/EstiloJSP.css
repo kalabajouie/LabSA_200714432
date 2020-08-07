@@ -1,0 +1,452 @@
+/*Clases CSS generales, utilizadas en todas las paginas*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+.html
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(../Images/blue2.jpg);
+    background-size: cover;
+     background-attachment: fixed
+}
+
+
+.body
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(../Images/blue2.jpg);
+    background-size: cover;
+    background-attachment: fixed
+}
+
+.body_gray
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(../Images/gray.jpg);
+    background-size: cover;
+    background-attachment: fixed
+}
+
+.body_index
+{
+    height: 100%;
+    width: 100%;
+}
+
+.divprincipal
+{
+    height: 90%;
+    background-image: url(../Images/blue2.jpg);
+    width: 99.4%;
+    float: right;
+    border: 5px solid black;
+    background-size: cover;
+}
+
+
+
+.formulario
+{
+    background-color: transparent;
+}
+
+.divimagen
+{
+    background-color: transparent;
+    height: 70%;
+    width: 90%;
+    padding-right: 80px;
+    margin-left: 50px;
+}
+
+
+.DivWithScroll
+{
+    height: 98%;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.divimagenscroll
+{
+    background-color: #ffffff;
+    height: 700px;
+    width: 700px;
+}
+
+.divtablascroll
+{
+    background-color: #ffffff;
+    height: 90px;
+    width: 70%;
+}
+
+.texto
+{
+    text-align: left;
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none; /*appearance: none;*/
+    color: #31b7f1;
+}
+
+.divtexto
+{
+    width: 16%;
+    border: 1px solid #ccc;
+    float: left; /*margin: 50px auto 10px;*/
+    overflow: hidden;
+}
+
+.divboton
+{
+    width: 4.2%;
+    height: 150%;
+    float: right;
+}
+
+.select
+{
+    text-align: left;
+    padding: 5px 8px;
+    width: 130%;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none; /*appearance: none;*/
+    background-color: transparent;
+    color: #31b7f1;
+    border: none;
+    outline: none;
+}
+
+.divselect
+{
+    width: 16%;
+    border: 1px solid #ccc;
+    float: left; /*margin: 50px auto 10px;*/
+    overflow: hidden;
+    background: transparent url("http://www.csslab.cl/ejemplos/select/arrowdown.gif") no-repeat 90% center;
+}
+
+option
+{
+    background-image: url(../Images/wall.jpg);
+    -webkit-appearance: none;
+    -moz-appearance: none; /* appearance: none;*/
+}
+option:focus
+{
+    background-image: url(../Images/wall.jpg);
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.boton
+{
+    text-align: left;
+    padding: 5px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none; /*appearance: none;*/
+}
+
+.titulos
+{
+    color: white;
+}
+
+.botongrande
+{
+    width: 15.5%;
+    height: 21%;
+    float: left;
+    font-size: 12px;
+}
+
+.divtabla
+{
+    border: 5px solid black;
+    width: 60%;
+}
+
+.parrafo_tabla
+{
+    font-size: 15px;
+    color: white;
+}
+
+
+.video
+{
+    position: relative;
+    padding-bottom: 56.25%;
+    overflow: hidden;
+    border: 4px;
+}
+
+.video iframe
+{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+td
+{
+    display: table-cell;
+    vertical-align: inherit;
+    width: 30px;
+    cursor: default;
+    color: Black;
+}
+
+.letra
+{
+    color: White;
+}
+
+.formulario
+{
+    display: inline-block;
+    text-align: center;
+    border: 5px;
+    float: right;
+}
+
+.TITULOS
+{
+    color: White;
+    font-size: 25px;
+}
+
+
+/*-----------------------------------------CSS para los controles fileupload---------------------------------------------*/
+
+.file-upload
+{
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    vertical-align: middle; /* Cosmetics */
+    border: 1px solid #5C005C;
+    background: #3173AD;
+    color: white;
+}
+
+/* The button size */
+.file-upload
+{
+    height: 100%;
+}
+.file-upload, .file-upload span
+{
+    width: 6.5em;
+}
+
+.file-upload input
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    font-size: 10px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.file-upload strong
+{
+    font: normal 12px Tahoma,sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.file-upload span
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block; 
+    padding-top: .15em;
+}
+
+.stylink
+{
+    font: 10px;
+    color: Black;
+}
+
+.stylink:hover
+{
+    font: 12px;
+    color: #31b7f1;
+}
+
+label2
+{
+    color: Red;
+    display: list-item;
+    padding-left: 1px;
+    margin-left: 2px;
+}
+
+label
+{
+    display: table-row;
+    color: #31b7f1;
+    margin-left: 2px;
+    padding-left: 1px;
+}
+
+/******************************************************DIV LOGOUT**********************************************/
+.div_logout
+{
+    float:right;
+    padding-right: 20px;
+}
+
+/**************************************************POP UP*******************************************************/
+
+.contacto
+{
+    border: 1px solid #CED5D7;
+    border-radius: 6px;
+    padding: 45px 45px 20px;
+    margin-top: 10px;
+    background-color: white;
+    box-shadow: 0px 5px 10px #B5C1C5, 0 0 0 10px #EEF5F7 inset;     
+   
+}
+
+.contacto label{
+    display: block;
+    font-weight: bold;
+}
+.contacto div{
+    margin-bottom: 10px;
+    
+}
+
+.contacto input[type='text'], .contacto textarea{
+    padding: 7px 6px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 3px 0;
+}
+.contacto input[type='text']:focus, .contacto textarea:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #dde9ec;
+}
+
+.contacto input[type='number'], .contacto textarea{
+    padding: 7px 6px;
+    width: 294px;
+    border: 1px solid #CED5D7;
+    resize: none;
+    box-shadow:0 0 0 3px #EEF5F7;
+    margin: 3px 0;
+}
+
+.contacto input[type='number ']:focus, .contacto textarea:focus{
+    outline: none;
+    box-shadow:0 0 0 3px #dde9ec;
+}
+
+.contacto input[type='submit']{
+    /*border: 1px solid #CED5D7;
+    box-shadow:0 0 0 3px #EEF5F7;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px white;
+    background: #e4f1f6;
+    background: -moz-linear-gradient(top, #e4f1f6 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #e4f1f6 0%,#cfe6ef 100%);*/
+}
+.contacto input[type='submit']:hover{
+    /*background: #edfcff;
+    background: -moz-linear-gradient(top, #edfcff 0%, #cfe6ef 100%);
+    background: -webkit-linear-gradient(top, #edfcff 0%,#cfe6ef 100%);*/
+}
+.contacto input[type='submit']:active{
+    /*background: #cfe6ef;
+    background: -moz-linear-gradient(top, #cfe6ef 0%, #edfcff 100%);
+    background: -webkit-linear-gradient(top, #cfe6ef 0%,#edfcff 100%);*/
+}
+/**************************************************************************************************************/
+
+/*Clase para mostrar circulo de carga mientras la pagina termiana de cargar todos los elementos*/
+.loader {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+        
+	width: 100%;
+	height: 100%;
+        
+	z-index: 9999;
+	background: url('../Images/demo_wait.gif') 50% 50% no-repeat rgb(249,249,249);
+         background-size: 200px 200px;
+         background-color: black;
+        opacity: 90;
+        filter: alpha(opacity=90);
+}
+
+
+/*FONDO DE PANTALLA AL LEVANTAR EL POPUP*/
+.modalBackground 
+{
+    height:100%;
+    background-color:#1B120F;
+    filter:alpha(opacity=70);
+    opacity:0.7;
+}
+
+.modalBackground2
+{
+    height:100%;
+    background-color:#ffffff;
+    filter:alpha(opacity=70);
+    opacity:0.7;
+}
+
+.esconder
+{
+   visibility: hidden; 
+}
+
+
+.embed-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

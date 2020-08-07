@@ -6,3 +6,11 @@ D:\PROYECTOS\Practica1_SA\Practica1_SA\obj\Debug\Practica1_SA.vbproj.GenerateRes
 D:\PROYECTOS\Practica1_SA\Practica1_SA\obj\Debug\Practica1_SA.dll
 D:\PROYECTOS\Practica1_SA\Practica1_SA\obj\Debug\Practica1_SA.xml
 D:\PROYECTOS\Practica1_SA\Practica1_SA\obj\Debug\Practica1_SA.pdb
+D:\Documents\GitHub\LabSA_200714432\Practica1_SA\Practica1_SA\bin\Practica1_SA.dll
+D:\Documents\GitHub\LabSA_200714432\Practica1_SA\Practica1_SA\bin\Practica1_SA.pdb
+D:\Documents\GitHub\LabSA_200714432\Practica1_SA\Practica1_SA\bin\Practica1_SA.xml
+D:\Documents\GitHub\LabSA_200714432\Practica1_SA\Practica1_SA\obj\Debug\Practica1_SA.Resources.resources
+D:\Documents\GitHub\LabSA_200714432\Practica1_SA\Practica1_SA\obj\Debug\Practica1_SA.vbproj.GenerateResource.Cache
+D:\Documents\GitHub\LabSA_200714432\Practica1_SA\Practica1_SA\obj\Debug\Practica1_SA.dll
+D:\Documents\GitHub\LabSA_200714432\Practica1_SA\Practica1_SA\obj\Debug\Practica1_SA.xml
+D:\Documents\GitHub\LabSA_200714432\Practica1_SA\Practica1_SA\obj\Debug\Practica1_SA.pdb

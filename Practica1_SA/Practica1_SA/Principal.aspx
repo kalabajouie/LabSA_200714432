@@ -4,7 +4,9 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-
+    
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="css/EstiloJSP.css" rel="stylesheet" type="text/css" />
     <link href="css/datatables.css" rel="stylesheet" type="text/css" />
     
     <script src="js/jquery-3.3.1.js" type="text/javascript"></script>
@@ -16,15 +18,28 @@
             $("[id*=GridView1]").prepend($("<thead></thead>").append($('#GridView1').find("tr:first"))).DataTable();
 
         });
-</script>
+    </script>
 
-    <title></title>
+    <title>Contactos</title>
 </head>
-<body style="background-color:Gray;">
+<body class="body">
     <form id="form1" runat="server">
     <div>
-        <asp:GridView ID="GridView1" runat="server">
-        </asp:GridView>
+        <div class="form-group col-12 col-sm-12 col-md-12 col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
+            <div class="card">
+                <div class="card-header text-white bg-dark">Contactos</div>
+                <div class="card-body">
+                    <div class="row">
+                        <asp:Button ID="btn_crear_contactos" runat="server" Text="Insertar Contactos" /> &nbsp
+                        <asp:Button ID="btn_listar_contactos" runat="server" Text="Listar Contactos" />
+                    </div>
+                    <br/>
+                    <asp:GridView ID="GridView1" runat="server" class="table table-dark table-stripped table-hover">
+                    </asp:GridView>
+                </div>
+            </div>
+        </div>
+        
     </div>
     </form>
 </body>
