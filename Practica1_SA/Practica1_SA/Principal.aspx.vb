@@ -16,6 +16,9 @@ Public Class Principal
 
         listar_contactos()
 
+
+
+
     End Sub
 
     Private Sub listar_contactos()
