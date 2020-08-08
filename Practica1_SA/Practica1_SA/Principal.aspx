@@ -20,7 +20,7 @@
         });
     </script>
 
-    <title>Contactos</title>
+    <title>Contactos2</title>
 </head>
 <body class="body">
     <form id="form1" runat="server">
