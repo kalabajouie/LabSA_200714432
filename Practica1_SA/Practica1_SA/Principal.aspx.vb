@@ -5,19 +5,22 @@ Public Class Principal
     Dim api As New administratorcontact100Client
 
     Protected Sub Page_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-
+        'api.ClientCredentials.UserName.UserName = "sa"
+        'api.ClientCredentials.UserName.Password = "usac"
     End Sub
 
     Private Sub crear_contactos()
+
+        'MsgBox(api.ClientCredentials)
+        api.ClientCredentials.UserName.UserName = "sa"
+        api.ClientCredentials.UserName.Password = "usac"
+
         'Ciclo que se repite 10 veces, en cada pasada inserta un contacto
         For i As Integer = 0 To 10 - 1
             api.create("200714432 - Contacto " & i, 0, "", 1)
         Next
 
         listar_contactos()
-
-
-
 
     End Sub
 
@@ -49,7 +52,7 @@ Public Class Principal
         Catch ex As Exception
 
         End Try
-        
+
     End Sub
 
     Protected Sub btn_crear_contactos_Click(sender As Object, e As EventArgs) Handles btn_crear_contactos.Click
